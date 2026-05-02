@@ -1,0 +1,11 @@
+certifi
+charset-normalizer
+idna
+PySide6
+PySide6_Addons
+PySide6_Essentials
+python-dotenv
+requests
+ruff
+shiboken6
+urllib3

@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+# E, F - basic errors
+# I - import sorting
+select = ["E", "F", "I"]
+fixable = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
