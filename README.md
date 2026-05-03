@@ -20,7 +20,7 @@
    CHAT_ID=
    ```
 
-4. Create backup scripts in `backup_scripts` folder. Use this template:
+4. Create `backup_scripts` folder. Add scripts for backup using following template:
    ```bash
    #!/bin/bash
    7z a $1 ~/your/dir -xr!exclude_folder -xr!.*
@@ -46,4 +46,9 @@ $ make ruff
 Create a file with unversioned dependencies:
 ```sh
 $ pip freeze | sed 's/==.*$//' > requirements_unversioned.txt
+```
+
+Sort `.gitignore` file:
+```sh
+$ LC_ALL=C sort .gitignore -o .gitignore
 ```

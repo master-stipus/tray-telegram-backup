@@ -1,5 +1,5 @@
-.venv
+*.log
 .env
 .ruff_cache
-*.log
+.venv
 backup_scripts/*
